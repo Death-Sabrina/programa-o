@@ -1,0 +1,48 @@
+:root{
+    --cor-fundo: #01080E ;
+    --cor-principal: #636681 ;
+    --cor-secundaria: #505368; 
+    --cor-destaque: #928c9c;
+    --cor-texto: #ffffff;
+
+}
+
+body {
+    background-image: url(llll.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    opacity: 0,5;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: #9c9c9c;
+    opacity:0,5;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+button:hover{
+    opacity: 0,5;
+    color: rgb(88, 88, 88);
+}
